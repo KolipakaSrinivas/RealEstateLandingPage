@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     width: 100%;
+    background-color:  #F2F2F2;;
  }
 
  .nav-and-hero {
@@ -52,9 +53,9 @@
  section {
    background-image: url(../imges/modern-residential-building-transformed\ 1.png);
    background-repeat: no-repeat;
-   background-size:580px 600px;
+   background-size:980px 600px;
    background-position:680px 80px; 
-   height: 650px; 
+   height: 670px; 
    display: flex;
    flex-direction: column;
    padding-left:100px;
@@ -131,4 +132,52 @@
    color: #16100D;
  }
 
+ /* How it Works start */
+ /* .second-section { */
+  /* background-color:  #F2F2F2; */
+ /* } */
 
+ .heading h2 {
+   /* width: 1140px; */
+   /* height: 48px; */
+   font-family: 'Syne';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 48px;
+   /* identical to box height */
+   text-align: center;
+   color: #16100D;
+   /* Inside auto layout */
+   /* flex: none; */
+   /* order: 0; */
+   /* align-self: stretch; */
+   /* flex-grow: 0; */
+   /* padding-bottom: 0; */
+   /* margin-top:0 ; */
+ }
+
+ .heading p {
+   /* margin-top: 0; */
+   /* padding-top: 0; */
+   font-family: 'Syne';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   /* or 188% */
+   text-align: center;
+   color: rgba(22, 16, 13, 0.5);
+   /* Inside auto layout */
+   /* flex: none; */
+   /* order: 1; */
+   /* align-self: stretch; */
+   /* flex-grow: 0; */
+ }
+
+ .se
+
+
+
+
+  /* How it Works start */
