@@ -1,183 +1,247 @@
- html ,body {
-    padding: 0;
-    margin: 0;
+
+body ,htm{
+   padding: 0;
+   margin: 0;
+   width: 100%;
+   background-color:#F2F2F2;
+   font-family: 'Syne', sans-serif;
+   box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family:Satoshi;
+  src: url();
+}
+
+*,*::after ,*::before {
+  box-sizing: border-box;
+}
+
+/* header start */
+header {
+  width: 100%;
+  height:770px;
+  background-color: #EFF8FF;
+  background-image: url(../imges/modern-residential-building-transformed\ 1.svg);
+  background-size: 850px 950%;
+  background-repeat: no-repeat;
+  /* background-position-y:2000px ; */
+  /* background-position: right; */
+  background-position: 400px center;
+}
+
+
+
+h2,h5,p,span {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Navbar start */
+
+nav {
+  padding: 10px 80px;
+}
+
+.conatiner {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: 70px;
+
+}
+
+.logo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.logo img {
+  width: 60px;
+  height: 45px;
+}
+
+section {
+  width: 100%;
+  width: 100%;
+}
+
+
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+li {
+  text-transform: capitalize;
+  list-style: none;
+  margin-left: 30px;
+  cursor: pointer;
+  
+}
+
+
+li a {
+  text-decoration: none;
+  font-size: 0.9em;
+  color: rgba(22, 16, 13, 1);
+
+
+}
+
+.login {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.login button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  color: #EFF8FF;
+  width: 110px;
+  height: 46px;
+  border: none;
+  outline: none;
+  background: #025595;
+  border-radius: 16px;
+}
+/* navbar end */
+
+/* section start */
+
+.info {
+  display: grid;
+  grid-template-columns: 150px 1fr 100px;
+  grid-template-rows: 1fr;
+}
+
+.info div {
+  grid-column: 2/3;
+}
+
+.info div h3{
+width: 599px;
+height: 160px;
+font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 80px;
+color: #16100D;
+margin-bottom: 20px;
+
+}
+
+.info div p {
+  width: 560px;
+  height: 68px;
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 34px;
+  margin-bottom: 70px;
+  /* or 155% */
+  color: rgba(22, 16, 13, 0.5);
+}
+
+
+.search-form {
+  margin-bottom: 40px;
+  width: 700px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 16px;
+  
+} 
+
+.count-bord {
+  display: flex;
+
+}
+
+.count-bord > div{
+  margin-left: 30px;
+}
+
+.count-bord h5 {
+  font-family: 'Syne';
+  font-style: normal;
+  font-size: 19px;
+  line-height: 36px;
+  color: #16100D;
+}
+.count-bord p{
+  font-family: 'Syne';
+  font-style: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #16100D;
+}
+
+
+
+/* section end */
+
+/* header end */
+
+
+
+@media screen and (min-width: 1256px) {
+  header{
+    background-position: right center;
+  }
+
+  
+}
+
+@media screen and (max-width: 950px) {
+  body {
     width: 100%;
-    background-color:  #F2F2F2;;
- }
+  }
 
- .nav-and-hero {
-   background-color: #EFF8FF;
- }
+  .info {
+    grid-template-columns: 1fr;
+  }
 
- body,*,*::after ,*::after {
-    box-sizing: border-box;
- }
- 
- .header {
-    height:90px;
+  header {
     width: 100%;
-    padding:1em 9em;
- }
+  }
 
- ul li {
-    list-style: none;
-    text-transform: capitalize;
-    margin-left: 50px;
- }
+  nav {
+    width: 100%;
+    padding: 5px 10px;
+  }
 
- a {
-    text-decoration: none;
-    cursor:pointer;
- }
+  li {
+   
+    display: none;
+    
+  }
 
- .container {
-   display: grid;
-   grid-template-columns: 150px 1fr 150px;
-   grid-template-rows: 56px;
- }
+  .info div h3{
+    width: 200px;
+    height: 20px;
+    font-size: 60px;    
+    }
 
- .navbar ul {
-   display: flex;
-   align-items: center;
- }
+    
 
-
- .login button {
-   width: 140px;
-   height: 50px;
-   background: #025595;
-   border-radius: 16px;
-   color: #EFF8FF;
- }
-
- section {
-   background-image: url(../imges/modern-residential-building-transformed\ 1.png);
-   background-repeat: no-repeat;
-   background-size:980px 600px;
-   background-position:680px 80px; 
-   height: 670px; 
-   display: flex;
-   flex-direction: column;
-   padding-left:100px;
-   justify-content:space-evenly;
-   /* grid-template-columns: 200px 1fr 200px; */
- }
-
-
- .hero-section {
- }
-
- .heding-sidehiding {
-   width: 599px;
-   height: 248px;
-   left: 150px;
-   top: 190px;
- }
-
- .hero-heading {
-   width: 599px;
-   height: 160px;
-   font-family: 'Syne';
-   font-style: normal;
-   font-weight: 700;
-   font-size: 60px;
-   line-height: 80px;
-   color: #16100D;
- }
-
- .hero-side-heading {
-   width: 535px;
-   height: 68px;
-   font-family: 'Syne';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 22px;
-   line-height: 34px;
-   color: rgba(22, 16, 13, 0.5);
- }
-
- .search-form {
-   width: 915px;
-   height: 100px;
-   background: rgba(255, 255, 255, 0.8);
-   backdrop-filter: blur(8px);
-/* Note: backdrop-filter has minimal browser support */
-   border-radius: 16px;
-
- }
-
- .Property-info {
-   display: flex;
- }
-
- .Property-info div > h5 {
-   width: 102px;
-   height: 36px;
-   font-family: 'Syne';
-   font-style: normal;
-   font-weight: 700;
-   font-size: 30px;
-   line-height: 36px;
-   color: #16100D;
- }
-
- .Property-info div >  p{
-   width: 110px;
-   height: 19px;
-   font-family: 'Syne';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 19px;
-   color: #16100D;
- }
-
- /* How it Works start */
- /* .second-section { */
-  /* background-color:  #F2F2F2; */
- /* } */
-
- .heading h2 {
-   /* width: 1140px; */
-   /* height: 48px; */
-   font-family: 'Syne';
-   font-style: normal;
-   font-weight: 700;
-   font-size: 40px;
-   line-height: 48px;
-   /* identical to box height */
-   text-align: center;
-   color: #16100D;
-   /* Inside auto layout */
-   /* flex: none; */
-   /* order: 0; */
-   /* align-self: stretch; */
-   /* flex-grow: 0; */
-   /* padding-bottom: 0; */
-   /* margin-top:0 ; */
- }
-
- .heading p {
-   /* margin-top: 0; */
-   /* padding-top: 0; */
-   font-family: 'Syne';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 30px;
-   /* or 188% */
-   text-align: center;
-   color: rgba(22, 16, 13, 0.5);
-   /* Inside auto layout */
-   /* flex: none; */
-   /* order: 1; */
-   /* align-self: stretch; */
-   /* flex-grow: 0; */
- }
-
- .se
-
-
-
-
-  /* How it Works start */
+  
+}

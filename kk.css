@@ -1,0 +1,201 @@
+/* Navbar start*/
+nav {
+    display:flex;
+    flex-direction: row;
+    padding: 15px 80px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.logo {
+    margin-right: auto;
+    width: 68px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+ul {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 100px;
+}
+
+ul li {
+    margin-left: 50px;
+    display: inline;
+    text-transform:capitalize;
+    cursor: pointer;
+    font-family: Satoshi;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.login {
+    padding: 13px 20px;
+    width: 120px;
+    border: none;
+    height: 50px;
+    background: #025595;
+    border-radius: 16px;
+    color:rgba(239, 248, 255, 1); 
+}
+
+
+/* Navbar end */
+
+header {
+    height: 700px;
+    background-image: url(./imges/modern-residential-building-transformed\ 1.svg);
+    background-repeat: no-repeat;
+    /* background-position: 450px center; */
+    background-position: 100% bottom;
+    /* background-size: 850px 830px; */
+    background-size: 70% 87%;
+    background-color:rgba(239, 248, 255, 1);
+
+}
+
+/* Hero content start */
+
+.hero-content {
+    /* padding-top: 0px; */
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.hero-heading h3{
+    width: 599px;
+    height: 160px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    color: #16100D;
+    margin-bottom: 20px;
+}
+
+.hero-heading p {
+    width: 560px;
+    height: 68px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    margin-bottom: 70px;
+    /* or 155% */
+    color: rgba(22, 16, 13, 0.5);
+}
+
+.form {
+    margin-bottom: 40px;
+    width: 700px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 16px;
+}
+
+.bord {
+    justify-content: space-around;
+    display: flex;
+    width: 400px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.bord h5 {
+    font-family: 'Syne';
+    font-style: normal;
+    font-size: 29px;
+    line-height: 36px;
+    color: #16100D;
+    margin: 10px;
+}
+
+.bord p {
+    margin-top: 0;
+  font-family: 'Syne';
+  font-style: normal;
+  font-size: 40px;
+  line-height: 10px;
+  color: #16100D;
+}
+/* Hero content end */
+
+
+/* container start */
+
+.container {
+   padding-inline:100px ;
+   
+}
+ 
+.container-header { 
+    width: 100%;
+    text-align: center;
+    padding-bottom:40px ;
+
+}
+
+.container-header > h4 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #16100D; 
+    padding-top:50px ;
+    margin: 20px;
+}
+
+
+.container-header p {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(22, 16, 13, 0.5);
+    max-width: 1100px;
+    color:rgba(22, 16, 13, 0.5);
+}
+
+.container-cards{
+    display:flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-cards  div {
+    align-items: center;
+    width: 290px;
+    height: 150px;
+}
+
+.container-card-2{
+    padding: 30px 20px;
+    width: 366.67px;
+    height: 232px;
+    background: #025595;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.04), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185);
+    border-radius: 16px;
+    color: #F2F2F2;
+    padding: 20px;
+}
+
+.container-cards img {
+    width: 30px;
+    height: 30px;
+}
+
+.container-card-2 > img {
+    fill: white;
+
+}
+
+
+/* container end */

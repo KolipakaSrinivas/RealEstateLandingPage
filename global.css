@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-syne: Syne;
+  --font-satoshi: Satoshi;
+
+  /* font sizes */
+  --font-size-base: 1rem;
+  --font-size-xl: 1.25rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-21xl: 2.5rem;
+  --font-size-sm: 0.88rem;
+  --font-size-lg: 1.13rem;
+  --font-size-11xl: 1.88rem;
+
+  /* Colors */
+  --white-500: #fff;
+  --color-gray-100: #12181d;
+  --color-gray-200: #16100d;
+  --dark: #0d1117;
+  --color-gray-300: rgba(255, 255, 255, 0.9);
+  --color-gray-400: rgba(255, 255, 255, 0.8);
+  --color-gray-500: rgba(22, 16, 13, 0.5);
+  --color-gray-600: rgba(18, 24, 29, 0.5);
+  --color-steelblue-100: #025595;
+  --color-steelblue-200: rgba(2, 85, 149, 0.05);
+  --color-aliceblue: #eff8ff;
+
+  /* Gaps */
+  --gap-xl: 1.25rem;
+  --gap-base: 1rem;
+  --gap-3xs: 0.63rem;
+
+  /* Paddings */
+  --padding-xs: 0.75rem;
+  --padding-xl: 1.25rem;
+  --padding-11xl: 1.88rem;
+
+  /* border radiuses */
+  --br-21xl: 40px;
+  --br-base: 16px;
+  --br-8xs: 5px;
+  --br-xs: 12px;
+  --br-xl: 20px;
+}
