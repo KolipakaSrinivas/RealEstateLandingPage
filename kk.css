@@ -2,7 +2,7 @@
 nav {
     display:flex;
     flex-direction: row;
-    padding: 15px 80px;
+    padding: 1.5em 5em;
 }
 
 .hamburger {
@@ -13,22 +13,25 @@ nav {
     margin-right: auto;
     width: 68px;
     height: 50px;
-    padding-left: 10px;
+    padding-left: 4em;
 }
 
-ul {
+.nav--links {
     display: inline;
     margin-left: auto;
     margin-right: auto;
-    padding-right: 100px;
+    /* padding-right: 19em; */
 }
 
-ul li {
-    margin-left: 50px;
+.nav--links li {
+    margin-left: 3.1em;
     display: inline;
     text-transform:capitalize;
     cursor: pointer;
     font-family: Satoshi;
+}
+li {
+    list-style: none;
 }
 
 li a {
@@ -36,7 +39,7 @@ li a {
 }
 
 .login {
-    padding: 13px 20px;
+    padding: 1em 1.5em;
     width: 120px;
     border: none;
     height: 50px;
@@ -64,8 +67,9 @@ header {
 
 .hero-content {
     /* padding-top: 0px; */
-    padding-left: 200px;
-    padding-right: 200px;
+    /* padding-left: 200px;
+    padding-right: 200px; */
+    padding-inline: 12em
 }
 
 .hero-heading h3{
@@ -133,9 +137,9 @@ header {
 
 
 /* container start */
-
+/* ***************************    How it Works  start **********************************/
 .container {
-   padding-inline:100px ;
+   padding-inline:90px ;
    
 }
  
@@ -154,12 +158,11 @@ header {
     margin: 20px;
 }
 
-
 .container-header p {
     font-weight: 400;
     font-size: 16px;
     color: rgba(22, 16, 13, 0.5);
-    max-width: 1100px;
+    /* max-width: 200px; */
     color:rgba(22, 16, 13, 0.5);
 }
 
@@ -167,6 +170,7 @@ header {
     display:flex;
     column-gap: 30px;
     flex-wrap: wrap;
+    gap: 70px;
     justify-content: center;
 }
 
@@ -192,10 +196,498 @@ header {
     height: 30px;
 }
 
-.container-card-2 > img {
+/* .container-card-2 > img {
     fill: white;
+
+} */
+
+/* container end */
+/* ***************************    How it Works end  ****************************************************************/
+
+
+
+
+/************************ We will help you to find Dream Home start ***************************/
+/* Photo-section start */
+.Photo-section {
+    margin: 90px 130px;
+    /* border: 2px solid  teal; */
+    width: 80%;
+}
+
+.Photo-section-heading{
+    /* border: 1px solid blue; */
+    width: 900px;
+    margin: 20px auto;
+    height: 300px;
+}
+
+.Photo-section-heading > h3 {
+    /* margin: 120px 130px; */
+    margin: 30px 200px;
+    /* border: 2px solid red; */
+    width: 600px;
+    height: 112px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    /* or 140% */
+    text-align: center;
+    color: #16100D;
+    /* Inside auto layout */
+}
+
+.Photo-section-heading > p {
+    /* border: 2px solid magenta; */
+    width: 810px;
+    margin: 10px auto;
+    height: 70px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(22, 16, 13, 0.5);
+}
+
+.Photo-section-photo {
+    width: 800px;
+    /* border: 2px solid palegreen; */
+    /* margin: 20px auto; */
+    height: 350px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.first-photo {
+    margin: 20px ; 
+    margin-left: 150px;  
+}
+
+.Photo-section-photo.second-photo {
+    margin: 20px ;
+    margin-right: 120px;
+}
+
+.Photo-section-photo img {
+    width: 100%;
+    height: 100%;
+    
+}
+.photo-card-1 {
+    position: absolute;
+    width: 273px;
+    height: 215px;
+    left: -90px;
+    top: 60px;
+    background: rgba(255, 255, 255, 0.9);
+    /* background-color:peru ; */   
+    backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 16px;
+}
+
+
+.photo-card-2 {
+    position: absolute;
+    width: 273px;
+    height: 215px;
+    right: -90px;
+    top: 60px;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+}
+
+/* Photo section end */
+/************************ We will help you to find Dream Home start ***************************/
+
+/********************** Our most trending properties start *********/
+
+.container-fluid {
+    padding-inline:30px ;
+    /* border: 2px solid navajowhite; */
+    width: 80%;
+    margin: 0px auto;
+    height: 100%;
+    
+}
+
+.container-fluid-header {
+    text-align: center;
+    /* border: 2px solid lightpink; */
+    width: 90%;
+    margin: 10px auto;
+    height: 210px
+}
+
+.container-fluid-header > h3 {
+    /* width: 1140px; */
+    /* height: 56px; */
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    /* identical to box height, or 140% */
+    text-align: center;
+    color: #16100D;
+    /* Inside auto layout */
+}
+
+.container-fluid-header > p {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+    text-align: center;
+    color: rgba(22, 16, 13, 0.5);
+    /* Inside auto layout */
+}
+
+.container-fluid-cards {
+    padding: 70px;
+    /* border: 2px solid yellow; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px;
+}
+
+.container-fluid-card{
+    padding: 10px;
+    width: 260px;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.04), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185);
+    border-radius: 16px;
+  
+
+}
+
+.container-fluid-card h6 {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    /* line-height: 28px; */
+    /* identical to box height, or 117% */
+    color: #025595;
+    margin-top:10px ;
+    margin-bottom:7px;
+    /* margin: 0; */
+}
+
+.container-fluid p {
+    margin: 0;
+    padding: 0;
+}
+
+.card-heading{
+    /* position: absolute; */
+    width: 247px;
+    height: 72px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 36px;
+    margin: 10px;
+    /* or 150% */
+    color: #16100D;
+}
+
+.card-imges > span {
+    margin-right:20px;
+}
+
+.container-fluid-card.img-card {
+    width: 180px;
+    height: 100px;
+    border-radius: 12px;
+}
+
+.img-card > img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-footer p{
+    /* width: 292px; */
+    /* height: 20px; */
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size:13px;
+    display: inline;
+    /* identical to box height, or 125% */
+    color: #16100D;
+    /* color: #025595; */
+}
+
+.card-footer img {
+    margin-top: 30px;
+}
+
+.testinomials{
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+    margin: 20px auto;
+    /* border: 2px solid maroon; */
+    position: relative;
+}
+
+
+.testinomials-heading {
+    margin: 20px auto;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.testinomials-heading > h2 {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+    color: #16100D;
+}
+
+.testinomials-heading > p{
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+    color: rgba(22, 16, 13, 0.5);
+}
+
+.testinomials-card {
+    position: relative;
+    background-color: rgba(2, 85, 149, 0.05);
+    border-radius: 16px;
+    border-radius: 16px;
+    margin-inline: 20% auto;
+    width: 760px;
+    height: 250px;
+}
+
+.text-img {
+    position: absolute;
+    top: -40px;
+    left: -90px;
+    width: 220px;
+    height: 220px;
+}
+
+.testinomials-card > h6 {
+    padding: 0px;
+    margin: 0;
+    font-size: 19px;
+    /* width: 575px; */
+    /* height: 35px; */
+    padding-left: 150px;
+}
+
+.testinomials-card > p{
+    /* width: 730px; */
+    /* height: 105px; */
+    font-family: 'Syne';
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    /* or 219% */
+    color: #12181D;
+    padding-left: 150px;
+}
+
+.testinomials-card-body {
+    display: flex;
+    flex-direction:row;
+    margin-left: 150px;
+
+}
+
+.testinomials-card-body div > h4 {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+    color: #12181D;
+}
+
+.testinomials-card-body > p  {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(18, 24, 29, 0.5);
+    margin-right: auto;
+}
+
+
+.testinomials-card-body-heading h4 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.testinomials-heading > p {
+    font-family: 'Syne';    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(18, 24, 29, 0.5);
+}
+
+.reating-logo  {
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: auto;
+}
+
+.reating-logo > img {
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+
+
+}
+
+.text-img > img {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    /* right: 0; */
+    top: 0;
+}
+
+/*******************  Footer start *************************/
+
+footer {
+    width: 100%;
+}
+
+.footer--nav {
+    margin:20px 100px;
+    /* border: 2px solid navy; */
+    display: flex;
+    flex-direction: column;
+} 
+
+.footer-nav--links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav--logo > img  {
+    width: 61.3px;
+    height: 50.81px;
+}
+
+.nav--logo > p {
+    width: 326px;
+    height: 84px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    color: rgba(18, 24, 29, 0.5);
+}
+
+.nav--li {
+    display: inline-flex;
+}
+
+ul > h3 {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    color: #12181D;
+    /* Inside auto layout */
+}
+
+ul li {
+    margin-bottom: 20px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #12181D;
+}
+
+.nav--social-media  > h3{
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    color: #12181D;
+    padding-top: 12px;
+}
+
+.nav--social-media > p{
+    font-family: 'Syne';
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #12181D;
+}
+
+.social-icones > img {
+    margin-right: 12px;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background: rgba(22, 16, 13, 0.1);
+}
+
+.copy--right {
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+.copy--right > p {
+    padding: 0;
+    margin: 0;
 
 }
 
 
-/* container end */
+
+.Terms{
+    margin-left: auto;
+}
+
+.Terms > p {
+    display: inline;
+    padding-right: 10px;
+    padding: 0;
+}
