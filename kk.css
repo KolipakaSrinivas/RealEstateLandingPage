@@ -1,3 +1,17 @@
+
+header {
+    height: 700px;
+    background-image: url(./imges/modern-residential-building-transformed\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: 100% bottom;
+
+    background-size: 70% 87%;
+    background-color:rgba(239, 248, 255, 1);
+
+}
+
+
+
 /* Navbar start*/
 nav {
     display:flex;
@@ -51,17 +65,6 @@ li a {
 
 /* Navbar end */
 
-header {
-    height: 700px;
-    background-image: url(./imges/modern-residential-building-transformed\ 1.svg);
-    background-repeat: no-repeat;
-    /* background-position: 450px center; */
-    background-position: 100% bottom;
-    /* background-size: 850px 830px; */
-    background-size: 70% 87%;
-    background-color:rgba(239, 248, 255, 1);
-
-}
 
 /* Hero content start */
 

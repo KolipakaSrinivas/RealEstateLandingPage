@@ -1,0 +1,195 @@
+@font-face {
+    font-family: Satoshi;
+    src: url(./fonts/Satoshi-Regular.otf),
+    url(./fonts/Satoshi-Regular.ttf)
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+*::after,*::before,* {
+    box-sizing: border-box;
+}
+
+p,h1,h2,h3,h4,h5,h6,span,div {
+    margin: 0;
+    padding: 0;
+}
+
+ header {
+    height: 500px;
+    background-image: url(./imges/modern-residential-building-transformed\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: 100% bottom;
+    background-size:62% 100%;
+    background-color:rgba(239, 248, 255, 1);
+
+}
+
+.nav--bar   {
+    background-color: rgba(239, 248, 255, 1);
+    width:100%;
+    padding: 10px 120px;
+    display: flex;
+    border: none;
+    outline: none;
+    
+}
+
+.login--button {
+    margin-left: auto;
+    /* align-items: center; */
+    width: 120px;
+    height: 50px;
+    background: #025595;
+    border-radius: 16px;
+    color: rgba(239, 248, 255, 1);
+    border: none;
+}
+
+.nav--logo {
+    width: 60px;
+    height: 50px;
+    margin-right: auto;
+}
+
+a {
+    text-decoration:none;
+    cursor: pointer;
+}
+.nav--bar ul > li {
+    display: inline;
+    list-style: none;
+    margin-right: 1.5em;
+    text-transform: capitalize;
+    font-family: Satoshi;
+    color: #16100D;
+
+}
+
+.hamburger {
+    display: none;
+}
+
+
+
+.hero--section {
+    width: 60%;
+    margin-left:120px ;
+    height: 450px;
+    /* border: 2px solid red; */
+    height: 100%;
+}
+
+.hero--section--heading {
+    height: 160px;
+    width: 80%;
+    padding-top:21px ;
+    /* border: 2px solid navy; */
+}
+
+.hero--section--heading > h1 {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 80px;
+    /* or 133% */
+    color: #16100D;    
+}
+
+.hero--section--heading > p {
+    width: 535px;
+    height: 68px;
+    left: 150px;
+    top: 352px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    /* or 155% */
+    color: rgba(22, 16, 13, 0.5);
+}
+
+.header--form {
+    /* margin-top:100px ; */
+    margin-top: 5em;
+    /* border: 2px solid pink; */
+    width: 100%;
+    height: 80px;
+    left: 150px;
+    top: 352px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    /* or 155% */
+    color: rgba(22, 16, 13, 0.5);
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+}
+
+.header--signbord {
+    display: flex;
+    margin-top:20px ;
+}
+
+.header--signbord > div  h3{
+    margin-right: 3em;
+    font-family: 'Syne';    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #16100D;
+}
+
+.header--signbord > p {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #16100D;
+}
+ 
+
+
+
+
+/* *********** responsive web design ***********/
+
+@media screen and (max-width: 1000px) {
+    header{
+        /* background-color: lightgreen;  */
+        height: 250px;
+        background-image: url(./imges/modern-residential-building-transformed\ 1.svg);
+        background-repeat: no-repeat;
+        background-position: 100% bottom;
+        background-size: 70% 100%;
+        background-color:rgba(239, 248, 255, 1);
+    }
+
+    nav {
+        padding: 0;
+    }
+    /* ul li > a {
+        display:none;
+    } */
+  }
+
+
+  @media screen and (max-width: 1240px) {
+    .hero--section {
+        margin-left:10px ;
+    }
+ 
+    
+  }
