@@ -14,20 +14,17 @@ body {
     box-sizing: border-box;
 }
 
-p,h1,h2,h3,h4,h5,h6,span,div {
+p,h1,h2,h3,h4,h5,h6,span,div,nav,header {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
- header {
-    height: 500px;
-    background-image: url(./imges/modern-residential-building-transformed\ 1.svg);
-    background-repeat: no-repeat;
-    background-position: 100% bottom;
-    background-size:62% 100%;
-    background-color:rgba(239, 248, 255, 1);
-
+nav {
+    width: 100%;
 }
+
+
 
 .nav--bar   {
     background-color: rgba(239, 248, 255, 1);
@@ -74,7 +71,19 @@ a {
     display: none;
 }
 
+header {
+    height: 500px;
+    background-image: url(./imges/modern-residential-building-transformed\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: 100% bottom;
+    background-size:62% 100%;
+    background-color:rgba(239, 248, 255, 1);
 
+}
+
+li {
+    list-style: none;
+}
 
 .hero--section {
     width: 60%;
@@ -121,8 +130,6 @@ a {
     /* border: 2px solid pink; */
     width: 100%;
     height: 80px;
-    left: 150px;
-    top: 352px;
     font-family: 'Syne';
     font-style: normal;
     font-weight: 400;
@@ -160,6 +167,119 @@ a {
     color: #16100D;
 }
  
+.container {
+    
+    height: 550px;
+    width: 90%;
+    margin: 3em 5em;
+    /* border: 2px solid yellow; */
+}
+
+.container--header {
+    margin: 2em 5em;
+    width: 80%;
+    height: 120px;
+    /* border: 2px solid yellowgreen; */
+    text-align: center;
+
+}
+
+.container--header > h4 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #16100D; 
+    /* padding-top:50px ; */
+    margin: 20px;
+    font-family: Satoshi;
+}
+
+.container--header > p {
+    height: 40%;
+    text-align: center;
+    /* border: 2px solid lawngreen; */
+    font-weight: 400;
+    margin: 0 16em;
+    width: 47%;
+    font-size: 16px;
+    color: rgba(22, 16, 13, 0.5);
+    color:rgba(22, 16, 13, 0.5);
+    font-family: Satoshi;
+}
+
+.container--cards {
+    margin-top:0 ;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+}
+
+.container--cards  div {
+    padding: 20px 20px;
+    width: 300px;
+    height: 200px;
+   
+}
+
+
+
+#hand ,#vector , #search{
+    width: 24px;
+    height: 22px;
+    position: relative;
+    bottom: 33px;
+    left: 8px;
+
+}
+
+
+
+.container--cards.home {
+    width: 35px;
+    height: 35px;
+    /* position: relative; */
+}
+
+
+.container--cards h4 {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+}
+
+.container--cards p {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: rgba(22, 16, 13, 0.5);
+}
+
+.container--card-2 {
+    padding: 30px 20px;
+    width: 366.67px;
+    height: 232px;
+    background-color: #025595;
+    /* box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.04), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185); */
+    box-shadow: -1px 0px 12px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 0px 12px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 12px -2px rgba(0,0,0,0.75);
+    border-radius: 16px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.container--card-2 p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+
 
 
 
@@ -169,7 +289,7 @@ a {
 @media screen and (max-width: 1000px) {
     header{
         /* background-color: lightgreen;  */
-        height: 250px;
+        height: 550px;
         background-image: url(./imges/modern-residential-building-transformed\ 1.svg);
         background-repeat: no-repeat;
         background-position: 100% bottom;
@@ -180,16 +300,66 @@ a {
     nav {
         padding: 0;
     }
-    /* ul li > a {
+
+    .nav--bar {
+        padding: 10px 60px;
+    }
+    .hero--section--heading {
+        height: 100px;
+        width: 90%;
+        padding-top:15px ;
+        /* border: 2px solid navy; */
+    }
+
+    .hero--section--heading > h1 {
+        font-size: 47px;
+        font-weight: 900;
+    } 
+
+    .hero--section--heading > p {
+        /* border: 2px solid brown; */
+        font-size:18px;
+    }
+    .header--form {
+        margin-top: 8em;
+        /* width: 100%; */
+    }
+
+    .header--signbord {
+        margin-top:40px ;
+    }
+
+    .container {
+        margin: 3em 2em;
+    }
+
+
+    ul li > a {
         display:none;
-    } */
+    }
   }
+
+
+
 
 
   @media screen and (max-width: 1240px) {
     .hero--section {
-        margin-left:10px ;
+        margin-left: 3em ;
     }
+
+    .nav--bar {
+        padding:10px 3em;
+        /* padding-right: 10px; */
+    }
+
  
     
+  }
+
+
+
+
+  @media screen and (max-width: 1144px) { 
+
   }
