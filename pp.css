@@ -506,6 +506,11 @@ li {
 }
 /* Our most trending properties end */
 
+
+.reating--card--heading {
+    
+}
+
 /* *********** responsive web design ***********/
 
 @media screen and (max-width: 1000px) {
